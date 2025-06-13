@@ -1,7 +1,7 @@
 from flask import Flask, request, send_file, jsonify
 from werkzeug.utils import secure_filename
 import os
-from src.backend.upload_handler import process_zip_file
+from backend.upload_handler import process_zip_file
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
