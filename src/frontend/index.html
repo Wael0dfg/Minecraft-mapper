@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minecraft Mapper</title>
-    <!-- Favicon (optional) -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <!-- Tailwind CSS CDN (for dev only; use build process in production) -->
-    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Optional: Smooth font rendering */
       body {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -19,5 +16,8 @@
   <body class="bg-gray-50 text-gray-800 min-h-screen">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- ✅ Add this line to load your app.jsx -->
+    <script type="module" src="./app.jsx"></script>
   </body>
 </html>
