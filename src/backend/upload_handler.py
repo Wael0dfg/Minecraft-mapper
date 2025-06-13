@@ -1,8 +1,8 @@
 import os
 import zipfile
 import tempfile
-from src.backend.world_parser import get_seed_from_leveldat
-from src.backend.map_merger import generate_map
+from backend.world_parser import get_seed_from_leveldat
+from backend.map_merger import generate_map
 
 def process_zip_file(zip_path, version):
     with tempfile.TemporaryDirectory() as temp_dir:
